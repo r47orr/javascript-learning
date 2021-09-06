@@ -4,9 +4,31 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>JavaScript</title>
+    <title>JavaScript 1</title>
+    <style>
+        body {
+            background-color: #cecece;
+            margin: 0 auto;
+            padding: 0 auto;
+        }
+        h1 {
+            text-align: center;
+            color: #bb0808;
+        }
+    </style>
 </head>
 <body>
-    
+    <script>
+        var title = 'Minha primeira mensagem:'
+        var message = 'Olá, Mundo!'
+        alert(`${title}\n${message}`);
+        title = 'Continuar na página?'
+        mesage = 'Clique em OK para continuar, ou saia. :)'
+        confirm(`${title}\n${message}`)
+        title = 'Que bom que você continuou!'
+        message = 'Já que ainda está aqui, qual é o seu nome?'
+        const nome = prompt(`${title}\n${message}`)
+        document.write(`<h1>Seu nome é ${nome}</h1>`)
+    </script>
 </body>
 </html>
